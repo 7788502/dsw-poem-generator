@@ -64,5 +64,5 @@ func desune(w http.ResponseWriter, _ *http.Request) {
 	for i := 0; i < lyric_length; i++ {
 		fmt.Fprintf(w, "%s\n", lyrics[rand.Intn(len(lyrics))])
 	}
-	fmt.Fprintf(w, "\n\nCopyright (c) exathedev")
+	fmt.Fprintf(w, "\n\nCopyright (c) 7788502")
 }
